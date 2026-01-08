@@ -5,14 +5,14 @@
 #
 # Description:
 #
-#   Add one-line description here...
+#   Zsh plugin to set up OpenSSH environment.
 #
 # Public variables:
 #
 # * `OPENSSL`; plugin-defined global associative array with the following keys:
-#   * \`_ALIASES\`; a list of all aliases defined by the plugin.
-#   * \`_FUNCTIONS\`; a list of all functions defined by the plugin.
-#   * \`_PLUGIN_DIR\`; the directory the plugin is sourced from.
+#   * `_ALIASES`; a list of all aliases defined by the plugin.
+#   * `_FUNCTIONS`; a list of all functions defined by the plugin.
+#   * `_PLUGIN_DIR`; the directory the plugin is sourced from.
 # * `SSH_KEY_PATH`; OpenSSH key path.
 #
 
