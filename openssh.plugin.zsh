@@ -1,11 +1,8 @@
 # -*- mode: sh; eval: (sh-set-shell "zsh") -*-
 #
-# Plugin Name: openssl
+# Plugin Name: openssh
+# Description: Zsh plugin to set up OpenSSH environment.
 # Repository: https://github.com/johnstonskj/zsh-openssl-plugin
-#
-# Description:
-#
-#   Zsh plugin to set up OpenSSH environment.
 #
 # Public variables:
 #
@@ -13,6 +10,7 @@
 #   * `_ALIASES`; a list of all aliases defined by the plugin.
 #   * `_FUNCTIONS`; a list of all functions defined by the plugin.
 #   * `_PLUGIN_DIR`; the directory the plugin is sourced from.
+#   * `_OLD_KEY_PATH`; the previous value of the `SSH_KEY_PATH` environment variable.
 # * `SSH_KEY_PATH`; OpenSSH key path.
 #
 
