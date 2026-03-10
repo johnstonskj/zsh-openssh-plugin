@@ -1,8 +1,10 @@
 # -*- mode: sh; eval: (sh-set-shell "zsh") -*-
 #
-# Plugin Name: openssh
-# Description: Zsh plugin to set up OpenSSH environment.
-# Repository: https://github.com/johnstonskj/zsh-openssl-plugin
+# @name: openssh
+# @brief: Set the OpenSSH environment.
+# @repository: https://github.com/johnstonskj/zsh-openssl-plugin
+# @version: 0.1.1
+# @license: MIT AND Apache-2.0
 #
 # Public variables:
 #
