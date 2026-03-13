@@ -20,7 +20,7 @@ openssl_plugin_init() {
     builtin emulate -L zsh
 
     @zplugins_envvar_save openssl SSH_KEY_PATH
-    export SSH_KEY_PATH="~/.ssh/rsa_id"
+    typeset -g SSH_KEY_PATH="~/.ssh/rsa_id"
 }
 
 # @internal
